@@ -12,7 +12,7 @@ export function PostForm() {
             Accept: "application/json"
         };
         try {
-            const response = await axios.post("https://gorest.co.in/public/v2/posts", { title: submittedTitle, body: submittedBody, user_id: 123 }, { headers });
+            const response = await axios.post("https://gorest.co.in/public/v2/posts", { title: submittedTitle, body: submittedBody, user_id: 8680371 }, { headers });
             console.log(response.data);
             form.reset();
         } catch (error) {
